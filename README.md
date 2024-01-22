@@ -72,16 +72,17 @@ Welcome to AdvChatGpt, your all-in-one AI companion designed to enhance and simp
 # AI Queries Made Simple:
 Ask any questions, and our intelligent chatbot will provide you with prompt and accurate responses. Whether you're seeking information, advice, or just engaging in casual conversation, AdvChatGpt is here to assist you. Plus, language is no barrier – our bot supports communication in multiple languages, making interaction seamless and accessible.
 
-# Image Generation Magic:
+## Image Generation Magic:
 Unleash your creativity with our image generation feature. Simply provide a prompt, and watch as AdvChatGpt transforms it into a visual masterpiece. Whether it's artistic endeavors or just for fun, the possibilities are endless.
 
-# Voice Queries and Responses:
+## Voice Queries and Responses:
 Experience a new dimension of interaction with our voice query and response capabilities. Ask questions, make requests, or simply engage in conversation, and AdvChatGpt will not only read but respond back to you in a natural and user-friendly voice. It's like having a virtual assistant at your beck and call.
 
-# Innovative Image Query Support:
+## Innovative Image Query Support:
 Take things to the next level with our unique capability to handle queries within images. Have a question about something you see in a picture? Just upload the image, and AdvChatGpt will analyze and provide insightful responses, bringing a whole new level of intelligence to visual interactions.
 
-# AdvChatGpt is more than just a chatbot – it's a versatile and intelligent companion designed to make your life better, providing solutions to your queries in various formats, be it text, images, or voice. Join us on this exciting journey of advanced AI interaction, where possibilities are limitless and convenience is key.
+## AdvChatGpt is more than just a chatbot :
+it's a versatile and intelligent companion designed to make your life better, providing solutions to your queries in various formats, be it text, images, or voice. Join us on this exciting journey of advanced AI interaction, where possibilities are limitless and convenience is key.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
