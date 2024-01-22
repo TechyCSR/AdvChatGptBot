@@ -64,12 +64,12 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 
 
 Welcome to AdvChatGpt, your all-in-one AI companion designed to enhance and simplify your life. Our cutting-edge chatbot is equipped with a comprehensive set of features that cater to a wide range of needs.
 
-# AI Queries Made Simple:
+## AI Queries Made Simple:
 Ask any questions, and our intelligent chatbot will provide you with prompt and accurate responses. Whether you're seeking information, advice, or just engaging in casual conversation, AdvChatGpt is here to assist you. Plus, language is no barrier – our bot supports communication in multiple languages, making interaction seamless and accessible.
 
 ## Image Generation Magic:
