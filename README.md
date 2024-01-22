@@ -20,17 +20,19 @@
 
   <h3 align="center">AdvChatGpt Bot</h3>
 
-  <p align="center">
-    An AI Bot with all the features you need to work.
-    
-    <a href="https://t.me/AdvChatGptbot">View Demo</a>
-    
-    <a href="https://github.com/TechyCSR/AdvChatGptBot/issues">Report Bug</a>
-
-    <a href="https://github.com/TechyCSR/AdvChatGptBot/issues">Request Feature</a>
+   <p align="center">
+    An AdvanceChatGpt bot with all the features you need to make your life better !
+    <br />
+    <a href="https://projects.techycsr.tech"><strong>Project bt @TechyCSR »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -64,18 +66,22 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Welcome to AdvChatGpt, your all-in-one AI companion designed to enhance and simplify your life. Our cutting-edge chatbot is equipped with a comprehensive set of features that cater to a wide range of needs.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+# AI Queries Made Simple:
+Ask any questions, and our intelligent chatbot will provide you with prompt and accurate responses. Whether you're seeking information, advice, or just engaging in casual conversation, AdvChatGpt is here to assist you. Plus, language is no barrier – our bot supports communication in multiple languages, making interaction seamless and accessible.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+# Image Generation Magic:
+Unleash your creativity with our image generation feature. Simply provide a prompt, and watch as AdvChatGpt transforms it into a visual masterpiece. Whether it's artistic endeavors or just for fun, the possibilities are endless.
 
-Use the `BLANK_README.md` to get started.
+# Voice Queries and Responses:
+Experience a new dimension of interaction with our voice query and response capabilities. Ask questions, make requests, or simply engage in conversation, and AdvChatGpt will not only read but respond back to you in a natural and user-friendly voice. It's like having a virtual assistant at your beck and call.
+
+# Innovative Image Query Support:
+Take things to the next level with our unique capability to handle queries within images. Have a question about something you see in a picture? Just upload the image, and AdvChatGpt will analyze and provide insightful responses, bringing a whole new level of intelligence to visual interactions.
+
+# AdvChatGpt is more than just a chatbot – it's a versatile and intelligent companion designed to make your life better, providing solutions to your queries in various formats, be it text, images, or voice. Join us on this exciting journey of advanced AI interaction, where possibilities are limitless and convenience is key.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
