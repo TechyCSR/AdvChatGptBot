@@ -22,14 +22,11 @@
 
   <p align="center">
     An AI Bot with all the features you need to work.
-    <br />
     
-    <br />
-    <br />
     <a href="https://t.me/AdvChatGptbot">View Demo</a>
-    ·
+    
     <a href="https://github.com/TechyCSR/AdvChatGptBot/issues">Report Bug</a>
-    ·
+
     <a href="https://github.com/TechyCSR/AdvChatGptBot/issues">Request Feature</a>
   </p>
 </div>
