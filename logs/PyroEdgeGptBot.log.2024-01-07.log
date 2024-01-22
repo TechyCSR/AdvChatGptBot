@@ -1,5 +1,0 @@
-2024-01-08 23:02:06 - root - ERROR - Error checking user membership: Telegram says: [400 USER_NOT_PARTICIPANT] - The user is not a member of this chat (caused by "channels.GetParticipant")
-2024-01-08 23:02:47 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
-2024-01-08 23:03:23 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.EditMessage")
-2024-01-08 23:03:43 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
-2024-01-08 23:04:07 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.EditMessage")
