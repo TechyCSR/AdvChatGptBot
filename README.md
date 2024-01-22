@@ -92,7 +92,7 @@ it's a versatile and intelligent companion designed to make your life better, pr
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Python][Next.js]][Next-url]
+* [![Python][Python]][Next-url]
 * [![Docker][React.js]][React-url]
 * [![Telegram][Vue.js]][Vue-url]
 * [![Gpt4free][Angular.io]][Angular-url]
