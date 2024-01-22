@@ -3,11 +3,11 @@ import base64
 import contextlib
 from dotenv import dotenv_values
 
-# Load .env
+
 env = dotenv_values('.env')
 
 
-# 配置文件不正确时的异常
+
 class BAD_CONFIG_ERROR(Exception):
     pass
 
@@ -41,9 +41,9 @@ if not API_ID or not API_KEY or not BOT_TOKEN:
     raise BAD_CONFIG_ERROR(f"API_ID, API_KEY or BOT_TOKEN is not set")
 
 if SUPER_USER_IDS is None:
-    if ALLOWED_USER_IDS is None: # 允许所有人使用时必须设置管理员ID
+    if ALLOWED_USER_IDS is None:
         raise BAD_CONFIG_ERROR(f"SUPER_USER_IDS is not set")
-    SUPER_USER_IDS = ALLOWED_USER_IDS # 允许部分人使用时没有设置管理员则都是管理员
+    SUPER_USER_IDS = ALLOWED_USER_IDS 
 
 if not os.path.exists(COOKIE_FILE):
     COOKIE_BASE64 = os.environ.get('COOKIE_BASE64', "")
