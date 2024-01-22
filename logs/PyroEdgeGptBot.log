@@ -1,0 +1,3 @@
+2024-01-18 01:12:50 - root - ERROR - Error checking user membership: Telegram says: [400 USER_NOT_PARTICIPANT] - The user is not a member of this chat (caused by "channels.GetParticipant")
+2024-01-18 01:13:00 - root - ERROR - Error checking user membership: Telegram says: [400 USER_NOT_PARTICIPANT] - The user is not a member of this chat (caused by "channels.GetParticipant")
+2024-01-18 01:13:11 - root - ERROR - Error checking user membership: Telegram says: [400 USER_NOT_PARTICIPANT] - The user is not a member of this chat (caused by "channels.GetParticipant")

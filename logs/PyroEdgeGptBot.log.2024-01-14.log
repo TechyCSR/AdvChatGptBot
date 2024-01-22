@@ -1,0 +1,82 @@
+2024-01-15 12:12:11 - root - WARNING - Allow everyone mode
+2024-01-15 12:12:11 - root - WARNING - You set BING_COOKIE to not None, but you allowed everyone to use this bot
+2024-01-15 12:17:57 - root - WARNING - Allow everyone mode
+2024-01-15 12:17:57 - root - WARNING - You set BING_COOKIE to not None, but you allowed everyone to use this bot
+2024-01-15 12:18:11 - root - WARNING - Allow everyone mode
+2024-01-15 12:18:11 - root - WARNING - You set BING_COOKIE to not None, but you allowed everyone to use this bot
+2024-01-15 12:23:24 - root - WARNING - Allow everyone mode
+2024-01-15 12:23:24 - root - WARNING - You set BING_COOKIE to not None, but you allowed everyone to use this bot
+2024-01-15 12:24:33 - root - WARNING - Allow everyone mode
+2024-01-15 12:24:33 - root - WARNING - You set BING_COOKIE to not None, but you allowed everyone to use this bot
+2024-01-15 12:27:36 - root - WARNING - Allow everyone mode
+2024-01-15 12:27:36 - root - WARNING - You set BING_COOKIE to not None, but you allowed everyone to use this bot
+2024-01-15 12:30:41 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 12:32:34 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 12:38:33 - root - ERROR - Error checking user membership: Telegram says: [400 USER_NOT_PARTICIPANT] - The user is not a member of this chat (caused by "channels.GetParticipant")
+2024-01-15 12:40:39 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 12:44:14 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 12:46:42 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 12:48:23 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 12:48:34 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMultiMedia")
+2024-01-15 12:48:42 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.EditMessage")
+2024-01-15 12:49:48 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 12:51:07 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 12:52:13 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 12:53:18 - pyrogram.dispatcher - ERROR - Error opening 'c:\\Users\\CSR\\Downloads\\AdvChatGpt-main\\AdvChatGpt-main\\downloads\\audio_2024-01-15_04-53-11_7324183639397236740.mp3': File does not exist or is not a regular file (possibly a pipe?).
+Traceback (most recent call last):
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 1972, in handle_voice
+    ogg_to_wav(voice_path, wav_path)
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 1817, in ogg_to_wav
+    audio, sr = sf.read(input_path)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\soundfile.py", line 285, in read
+    with SoundFile(file, 'r', samplerate, channels,
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\soundfile.py", line 658, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\soundfile.py", line 1216, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening 'c:\\Users\\CSR\\Downloads\\AdvChatGpt-main\\AdvChatGpt-main\\downloads\\audio_2024-01-15_04-53-11_7324183639397236740.mp3': File does not exist or is not a regular file (possibly a pipe?).
+2024-01-15 12:55:25 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 12:56:59 - root - ERROR - Error checking user membership: Telegram says: [400 USER_NOT_PARTICIPANT] - The user is not a member of this chat (caused by "channels.GetParticipant")
+2024-01-15 12:57:19 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 12:57:36 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 12:57:44 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.EditMessage")
+2024-01-15 12:59:31 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 13:01:02 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 13:02:07 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 13:03:33 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 13:04:39 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 13:05:35 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 13:06:11 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 13:06:15 - root - ERROR - ImageGenerator Error: Your prompt has been blocked by Bing. Try to change any bad words and try again.
+Traceback (most recent call last):
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 1122, in images
+    images = await image_gen_main(prompt, image_gen_cookie_u, all_cookies=all_cookies)
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 2861, in image_gen_main
+    images = await image_generator.get_images(prompt)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\BingImageCreator.py", line 299, in get_images
+    raise Exception(
+Exception: Your prompt has been blocked by Bing. Try to change any bad words and try again.
+2024-01-15 13:06:47 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 13:06:51 - root - ERROR - ImageGenerator Error: Your prompt has been blocked by Bing. Try to change any bad words and try again.
+Traceback (most recent call last):
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 1122, in images
+    images = await image_gen_main(prompt, image_gen_cookie_u, all_cookies=all_cookies)
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 2861, in image_gen_main
+    images = await image_generator.get_images(prompt)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\BingImageCreator.py", line 299, in get_images
+    raise Exception(
+Exception: Your prompt has been blocked by Bing. Try to change any bad words and try again.
+2024-01-15 13:07:21 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 13:07:26 - root - ERROR - ImageGenerator Error: Redirect failed
+Traceback (most recent call last):
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 1122, in images
+    images = await image_gen_main(prompt, image_gen_cookie_u, all_cookies=all_cookies)
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 2861, in image_gen_main
+    images = await image_generator.get_images(prompt)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\BingImageCreator.py", line 312, in get_images
+    raise Exception("Redirect failed")
+Exception: Redirect failed
+2024-01-15 14:17:43 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2024-01-15 14:22:22 - pyrogram.session.session - WARNING - [AdvChatGptTrialsX] Waiting for 3 seconds before continuing (required by "messages.SendMedia")

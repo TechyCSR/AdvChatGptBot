@@ -1,0 +1,83 @@
+2024-01-17 00:54:27 - root - ERROR - ImageGenerator Error: Redirect failed
+Traceback (most recent call last):
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 1122, in images
+    images = await image_gen_main(prompt, image_gen_cookie_u, all_cookies=all_cookies)
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 2861, in image_gen_main
+    images = await image_generator.get_images(prompt)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\BingImageCreator.py", line 312, in get_images
+    raise Exception("Redirect failed")
+Exception: Redirect failed
+2024-01-17 02:08:15 - root - ERROR - Error checking user membership: Telegram says: [400 USER_NOT_PARTICIPANT] - The user is not a member of this chat (caused by "channels.GetParticipant")
+2024-01-17 02:08:28 - root - ERROR - Failed to initialize for user [6686858916]
+Traceback (most recent call last):
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 336, in start_command
+    EDGES[update.from_user.id]["bot"] = await EdgeGPT.Chatbot.create(cookies=BING_COOKIE)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\EdgeGPT\EdgeGPT.py", line 42, in create
+    await Conversation.create(self.proxy, cookies=cookies),
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\EdgeGPT\conversation.py", line 112, in create
+    raise Exception("Authentication failed")
+Exception: Authentication failed
+2024-01-17 02:08:37 - root - ERROR - Failed to initialize for user [6686858916]
+Traceback (most recent call last):
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 336, in start_command
+    EDGES[update.from_user.id]["bot"] = await EdgeGPT.Chatbot.create(cookies=BING_COOKIE)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\EdgeGPT\EdgeGPT.py", line 42, in create
+    await Conversation.create(self.proxy, cookies=cookies),
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\EdgeGPT\conversation.py", line 112, in create
+    raise Exception("Authentication failed")
+Exception: Authentication failed
+2024-01-17 02:08:46 - root - ERROR - Failed to initialize for user [6686858916]
+Traceback (most recent call last):
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 2414, in extract_text
+    EDGES[update.from_user.id]["bot"] = await EdgeGPT.Chatbot.create(cookies=BING_COOKIE)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\EdgeGPT\EdgeGPT.py", line 42, in create
+    await Conversation.create(self.proxy, cookies=cookies),
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\EdgeGPT\conversation.py", line 112, in create
+    raise Exception("Authentication failed")
+Exception: Authentication failed
+2024-01-17 04:23:21 - root - ERROR - Failed to initialize for user [5942840966]
+Traceback (most recent call last):
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 336, in start_command
+    EDGES[update.from_user.id]["bot"] = await EdgeGPT.Chatbot.create(cookies=BING_COOKIE)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\EdgeGPT\EdgeGPT.py", line 42, in create
+    await Conversation.create(self.proxy, cookies=cookies),
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\EdgeGPT\conversation.py", line 112, in create
+    raise Exception("Authentication failed")
+Exception: Authentication failed
+2024-01-17 06:18:06 - root - ERROR - Failed to initialize for user [6411940904]
+Traceback (most recent call last):
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 336, in start_command
+    EDGES[update.from_user.id]["bot"] = await EdgeGPT.Chatbot.create(cookies=BING_COOKIE)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\EdgeGPT\EdgeGPT.py", line 42, in create
+    await Conversation.create(self.proxy, cookies=cookies),
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\EdgeGPT\conversation.py", line 112, in create
+    raise Exception("Authentication failed")
+Exception: Authentication failed
+2024-01-17 06:19:15 - root - ERROR - Error checking user membership: Telegram says: [400 USER_NOT_PARTICIPANT] - The user is not a member of this chat (caused by "channels.GetParticipant")
+2024-01-17 11:17:06 - root - ERROR - ImageGenerator Error: Redirect failed
+Traceback (most recent call last):
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 1122, in images
+    images = await image_gen_main(prompt, image_gen_cookie_u, all_cookies=all_cookies)
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 2861, in image_gen_main
+    images = await image_generator.get_images(prompt)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\BingImageCreator.py", line 312, in get_images
+    raise Exception("Redirect failed")
+Exception: Redirect failed
+2024-01-17 11:17:23 - root - ERROR - ImageGenerator Error: Redirect failed
+Traceback (most recent call last):
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 1122, in images
+    images = await image_gen_main(prompt, image_gen_cookie_u, all_cookies=all_cookies)
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 2861, in image_gen_main
+    images = await image_generator.get_images(prompt)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\BingImageCreator.py", line 312, in get_images
+    raise Exception("Redirect failed")
+Exception: Redirect failed
+2024-01-17 16:22:38 - root - ERROR - ImageGenerator Error: Redirect failed
+Traceback (most recent call last):
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 1122, in images
+    images = await image_gen_main(prompt, image_gen_cookie_u, all_cookies=all_cookies)
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 2861, in image_gen_main
+    images = await image_generator.get_images(prompt)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\BingImageCreator.py", line 312, in get_images
+    raise Exception("Redirect failed")
+Exception: Redirect failed

@@ -1,0 +1,9 @@
+2024-01-16 19:18:04 - root - ERROR - ImageGenerator Error: Redirect failed
+Traceback (most recent call last):
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 1122, in images
+    images = await image_gen_main(prompt, image_gen_cookie_u, all_cookies=all_cookies)
+  File "c:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\PyroEdgeGptBot.py", line 2861, in image_gen_main
+    images = await image_generator.get_images(prompt)
+  File "C:\Users\CSR\Downloads\AdvChatGpt-main\AdvChatGpt-main\.venv\lib\site-packages\BingImageCreator.py", line 312, in get_images
+    raise Exception("Redirect failed")
+Exception: Redirect failed

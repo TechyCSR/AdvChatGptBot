@@ -1,0 +1,37 @@
+# Tested on python=3.8.16
+
+python-dotenv>=1.0.0
+Pyrogram>=2.0
+EdgeGPT==0.12.1
+BingImageCreator>=0.4
+tgcrypto
+aiohttp
+pytz
+# py3langid>=0.2.2
+soundfile==0.12.1
+SpeechRecognition== 3.10.0
+gTTS==2.3.2
+emoji
+requests
+pycryptodome
+curl-cffi
+aiohttp
+certifi
+browser_cookie3
+websockets
+js2py
+typing-extensions
+PyExecJS
+duckduckgo-search
+nest_asyncio
+waitress
+werkzeug
+loguru
+tiktoken
+pillow
+platformdirs
+numpy
+asgiref
+fastapi
+uvicorn
+flask
