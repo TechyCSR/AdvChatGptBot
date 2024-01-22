@@ -1,14 +1,14 @@
 FROM python:3.11-alpine
 
-WORKDIR /PyroEdgeGptBot
+WORKDIR /AdvChatGptBot
 
-COPY . /PyroEdgeGptBot
+COPY . /AdvChatGptBot
 
-ENV API_ID="17071638" \
-    API_KEY="ce2045280ff29d36ff9a4daf1c84c975" \
-    BOT_TOKEN="6053121132:AAGTOeZx3rV_qC5Eed9WUe-WjPJPgkk5QKs" \
+ENV API_ID="" \
+    API_KEY="" \
+    BOT_TOKEN="" \
     ALLOWED_USER_IDS="*" \
-    SUPER_USER_IDS=51242184,449942659\
+    SUPER_USER_IDS=51242184\
     NOT_ALLOW_INFO="⚠️You(%user_id%) are not authorized to use this bot⚠️" \
     BOT_NAME="AdvChatGpt" \
     SUGGEST_MODE=replykeyboard \
@@ -29,4 +29,4 @@ RUN apk update \
     && pip install --no-cache-dir -r requirements.txt \ 
     && apk del .build-deps
 
-CMD [ "python", "PyroEdgeGptBot.py" ]
+CMD [ "python", "AdvChatGptBot.py" ]
