@@ -18,15 +18,15 @@
     <img src="database/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">AdvChatGpt Bot</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An AI Bot with all the features you need to work.
     <br />
-    <a href="https://github.com/TechyCSR/AdvChatGptBot"><strong>Explore the docs »</strong></a>
+    
     <br />
     <br />
-    <a href="https://github.com/TechyCSR/AdvChatGptBot">View Demo</a>
+    <a href="https://t.me/AdvChatGptbot">View Demo</a>
     ·
     <a href="https://github.com/TechyCSR/AdvChatGptBot/issues">Report Bug</a>
     ·
