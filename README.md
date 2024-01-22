@@ -81,7 +81,7 @@ Experience a new dimension of interaction with our voice query and response capa
 ## Innovative Image Query Support:
 Take things to the next level with our unique capability to handle queries within images. Have a question about something you see in a picture? Just upload the image, and AdvChatGpt will analyze and provide insightful responses, bringing a whole new level of intelligence to visual interactions.
 
-## AdvChatGpt is more than just a chatbot :
+## AdvChatGpt is more than just a chatbot:
 it's a versatile and intelligent companion designed to make your life better, providing solutions to your queries in various formats, be it text, images, or voice. Join us on this exciting journey of advanced AI interaction, where possibilities are limitless and convenience is key.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -92,11 +92,11 @@ it's a versatile and intelligent companion designed to make your life better, pr
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Python][Next.js]][Next-url]
+* [![Docker][React.js]][React-url]
+* [![Telegram][Vue.js]][Vue-url]
+* [![Gpt4free][Angular.io]][Angular-url]
+* [![G-VoiceToSpeech][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
