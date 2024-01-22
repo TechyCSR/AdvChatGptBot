@@ -1,122 +1,254 @@
+
+
+
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+
+<!-- PROJECT LOGO -->
+<br />
 <div align="center">
+  <a href="https://github.com/TechyCSR/AdvChatGptBot">
+    <img src="database/logo.jpg" alt="Logo" width="80" height="80">
+  </a>
 
-# PyroEdgeGPTBot
-_A telegram bot with Bing AI ( using [EdgeGPT](https://github.com/acheong08/EdgeGPT) API )_
+  <h3 align="center">Best-README-Template</h3>
 
-<a>English</a> -
-<a href="./README_zh.md">中文</a>
-
+  <p align="center">
+    An awesome README template to jumpstart your projects!
+    <br />
+    <a href="https://github.com/TechyCSR/AdvChatGptBot"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/TechyCSR/AdvChatGptBot">View Demo</a>
+    ·
+    <a href="https://github.com/TechyCSR/AdvChatGptBot/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/TechyCSR/AdvChatGptBot/issues">Request Feature</a>
+  </p>
 </div>
 
-# Features
-- [x] Multiple users with different sessions (No group support now)
-- [x] Response with reference (and correct ref label)
-- [x] Response with normal and stream mode
-- [x] Can allow every one to use
-- [x] Allow you set your own cookie at runtime
-- [x] Allow you set a bot name to you
-- [ ] Prompt Support
-- [x] Image generation (inline query and command mode)
-- [ ] Export conversation to Notion
-- [x] Hot update the EdgeGPT dependence
 
-# Setup
-## Requirements
-* python 3.8+
-* A Microsoft Account with early access to [http://bing.com/chat](http://bing.com/chat)
-* Telegram API_ID and API_KEY from [https://my.telegram.org/apps](https://my.telegram.org/apps)
-* Telegram BOT_TOKEN from [@botfather](https://t.me/botfather)
-* Good practical skills and a clear mind!
 
+<!-- TABLE OF CONTENTS -->
 <details>
-  <summary>
-
-### Checking bing AI access (Required)
-PS: Everyone can access Bing AI for chat now, even anonymous users.
-
-  </summary>
-
-- Install the latest version of Microsoft Edge
-- Alternatively, you can use any browser and set the user-agent to look like you're using Edge. You can do this easily with an extension like "User-Agent Switcher and Manager" for [Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/).
-- Open [bing.com/chat](https://bing.com/chat)
-- If you see a chat feature, you are good to go
-
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
 </details>
 
 
-<details>
-  <summary>
 
-### Getting authentication (Optional)
-PS: This column is needed by image creator, or ask more questions and have longer conversations
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-  </summary>
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-- Install the cookie editor extension for [Chrome](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/) or [Edge](https://microsoftedge.microsoft.com/addons/detail/cookieeditor/neaplmfkghagebokkhpjpoebhdledlfi)
-- Go to [`bing.com`](https://bing.com/)
-- Open the extension
-- Click "Export" on the bottom right, then "Export as JSON" (This saves your cookies to clipboard)
-- Paste your cookies into a file `./cookie.json` (The filename depends on your `.env` settings)
+There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-</details>
+Here's why:
+* Your time should be focused on creating something amazing. A project that solves a problem and helps others
+* You shouldn't be doing the same tasks over and over like creating a README from scratch
+* You should implement DRY principles to the rest of your life :smile:
 
-## Install requirements
-```shell
-pip install -r requirements.txt
-```
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
-## Set environment variables
-```shell
-cp .env.example .env
-```
-Then edit `.env` file and set `API_ID`, `API_KEY`, `BOT_TOKEN` and `ALLOWED_USER_IDS`. Or you can set environment variables like this:
-```shell
-export API_ID='1234567'
-export API_KEY='abcdefg2hijk5lmnopq8rstuvwxyz9'
-export BOT_TOKEN='123456789:ABC-DEF1234ghIkl-zyx57W2v1u123ew11'
-export ALLOWED_USER_IDS='112113115,567568569'
-```
+Use the `BLANK_README.md` to get started.
 
-# Run
-```shell
-python PyroEdgeGptBot.py
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Run it on Back4app
-* [Fork](https://github.com/tom-snow/PyroEdgeGPTBot/fork) this repo
-* Login into [Back4app](https://www.back4app.com/login) (Suggests login with github account)
-* Click `Build new app` and `Containers as a Service`
-* Link the repo you forked.
-* Set the [Required ENVS](./Dockerfile#L7-L11) (Explain [here](./.env.example#L4-L12))
-> Note that you can run `python base64_encode_cookie.py` locally then get `COOKIE_BASE64` value from `base64_encoded_cookie.txt`
-* Deploy!
 
-# Run it on Railway (Recommend)
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/7OO3yS?referralCode=_cP9IT)
 
-<details>
-  <summary>
+### Built With
 
-## (Optional) Set bot commands
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-  </summary>
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
 
-- Contact [@botfather](https://t.me/botfather)
-- Send `/mybots` then select your bot and click `Edit Bot` -> `Edit Commands`
-- Paste below and send.
-```
-start - Start the bot!
-help - Get help
-reset - Reset the bot
-new - Create new conversation
-switch - Switch the conversation style
-interval - Set edit interval
-suggest_mode - Set the suggest mode
-image_gen - Generate images
-update - Update the EdgeGPT dependence
-cookie - Set you own cookie
-bot_name - Set the bot name display to you
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-</details>
 
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Add Changelog
+- [x] Add back to top links
+- [ ] Add Additional Templates w/ Examples
+- [ ] Add "components" document to easily copy & paste sections of the readme
+- [ ] Multi-language Support
+    - [ ] Chinese
+    - [ ] Spanish
+
+See the [open issues](https://github.com/TechyCSR/AdvChatGptBot/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/TechyCSR/AdvChatGptBot/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/TechyCSR/AdvChatGptBot/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/TechyCSR/AdvChatGptBot/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/TechyCSR/AdvChatGptBot/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/TechyCSR/AdvChatGptBot/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
