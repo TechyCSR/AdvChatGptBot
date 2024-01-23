@@ -23,7 +23,7 @@
    <p align="center">
     An AdvanceChatGpt bot with all the features you need to make your life better !
     <br />
-    <a href="https://projects.techycsr.tech"><strong>Project bt @TechyCSR »</strong></a>
+    <a href="https://projects.techycsr.tech"><strong>Project by @TechyCSR »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
