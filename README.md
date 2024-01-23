@@ -26,11 +26,7 @@
     <a href="https://projects.techycsr.tech"><strong>Project by @TechyCSR »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://t.me/AdvChatGptbot">View Demo</a>
   </p>
 </div>
 
