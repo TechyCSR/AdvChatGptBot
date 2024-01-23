@@ -1443,14 +1443,14 @@ async def cookie_file_handle(bot, update):
         await bot.send_message(chat_id=update.chat.id, text=f"Please send a json file. Received ({update.document.mime_type}).")
         return
     cookie_f = await bot.download_media(update.document.file_id, in_memory=True)
-    try: # 加载 json
+    try: 
         cookies = json.loads(bytes(cookie_f.getbuffer()).decode("utf-8"))
     except Exception as e:
         logger.exception(f"User [{update.chat.id}] send a non json file")
         await bot.send_message(chat_id=update.chat.id, text="Load json file failed, You should send a json file.")
         return
     cookie_keys = set(["domain", "path", "name", "value"])
-    for cookie in cookies: # 检查 cookie 格式
+    for cookie in cookies: 
         if cookie_keys & set(cookie.keys()) != cookie_keys:
             logger.warning(f"User [{update.chat.id}] send invalid cookie file!")
             await bot.send_message(chat_id=update.chat.id, text=f"Seems cookie is invalid. Please send a valid cookie json file.")
@@ -2759,8 +2759,6 @@ async def bingAIStream(user_id, messageText):
 
 def process_message_main(rsp_obj, user_id=None):
     response = RESPONSE_TEMPLATE
-
-    # 回复消息主文本部分
     if "messages" in rsp_obj["item"]:
         bot_messages = rsp_obj["item"]["messages"]
         search_query = ""
@@ -2802,7 +2800,6 @@ def process_message_main(rsp_obj, user_id=None):
     return response, msg_suggest
 
 def process_message_body(msg_obj, user_id=None):
-    # 回复消息的主体部分(先设置为空)
     msg_main = ""
     msg_ref = ""
     msg_suggest = None
