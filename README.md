@@ -45,8 +45,8 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#Requirements">Prerequisites</a></li>
-        <li><a href="#Run">Installation</a></li>
+        <li><a href="#Requirements">Requirements</a></li>
+        <li><a href="#Run">Run</a></li>
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -207,7 +207,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-CSR - [@TechyCSR](https://twitter.com/your_username) - [TechyCSR.tech](https://techycsr.tech)
+CSR - [@TechyCSR](https://twitter.com/TechyCSR) - [TechyCSR.tech](https://techycsr.tech)
 
 Other Projects Link: [ View All Projects ](https://projects.techycsr.tech)
 
