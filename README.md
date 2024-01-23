@@ -88,7 +88,8 @@ it's a versatile and intelligent companion designed to make your life better, pr
 
 
 
-# Setup
+#Getting Started
+
 ## Requirements
 * python 3.8+
 * A Microsoft Account with early access to [http://bing.com/chat](http://bing.com/chat)
@@ -147,7 +148,7 @@ export ALLOWED_USER_IDS='112113115,567568569'
 
 # Run
 ```shell
-python PyroEdgeGptBot.py
+python AdvChatGptBot.py
 ```
 
 
