@@ -88,7 +88,7 @@ it's a versatile and intelligent companion designed to make your life better, pr
 
 
 
-#Getting Started
+# Getting Started
 
 ## Requirements
 * python 3.8+
