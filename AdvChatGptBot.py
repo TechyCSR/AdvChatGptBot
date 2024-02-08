@@ -224,9 +224,12 @@ def check_conversation_style(style):
 if not check_conversation_style(DEFAULT_CONVERSATION_STYLE_TYPE):
     raise BAD_CONFIG_ERROR(f"DEFAULT_CONVERSATION_STYLE_TYPE is invalid")
 
-API_ID=17071638
-API_KEY="ce2045280ff29d36ff9a4daf1c84c975"
-BOT_TOKEN="6053121132:AAHs3I4qnY_ep8tx01Kf2c8T8s-3vfcjgas"
+
+
+#ID
+API_ID=
+API_KEY=""
+BOT_TOKEN="`"
 
 
 pyro = Client("AdvChatGptTrialsX", api_id=int(API_ID), api_hash=API_KEY, bot_token=BOT_TOKEN)
