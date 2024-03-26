@@ -53,20 +53,21 @@ which supports the following commands:
 global stk_list
 stk_list = ["...", "...."]
 global STCLOGO
+
 STCLOGO ="https://graph.org/file/5d3d030e668795f769e20.mp4"
 
 global CSRLOG
 global CSRPVT
 global FGRP
 global OCR_KEY
-OCR_KEY = "K85263696288957"
-FGRP = -1001859478637
-CSRPVT=[5124529069]
+OCR_KEY = ""
+FGRP = ""
+CSRPVT=[]
 global STCLOG
-STCLOG= -1001793856405
+STCLOG= ""
 #1001927160194
-CSRLOG=-1001793856405
-ALLOWED_GROUP_ID = [-1001896039575,-1001751527173,-1001986466657]
+CSRLOG=""
+ALLOWED_GROUP_ID = []
 PROMO ="\n\n||**ᴘᴏᴡᴇʀᴇᴅ ʙʏ  @EvaFires**||"
 global ADMIN
 ADMIN =[]
@@ -81,13 +82,13 @@ FCRMSG= """ᴅᴇᴀʀ  {mention},
 """
 global welcome_message
 global vocpre
-vocpre=[5124529069]
+vocpre=[]
 global vcpre
 vcpre={}
 global img
 img={}
 
-sudo=[2094662246,1677130304,5124529069,5293138954]
+sudo=[]
 
 global rlink
 rlink="https://t.me/AdvAIWorld"
@@ -224,12 +225,6 @@ def check_conversation_style(style):
 if not check_conversation_style(DEFAULT_CONVERSATION_STYLE_TYPE):
     raise BAD_CONFIG_ERROR(f"DEFAULT_CONVERSATION_STYLE_TYPE is invalid")
 
-
-
-#ID
-API_ID=
-API_KEY=""
-BOT_TOKEN="`"
 
 
 pyro = Client("AdvChatGptTrialsX", api_id=int(API_ID), api_hash=API_KEY, bot_token=BOT_TOKEN)
