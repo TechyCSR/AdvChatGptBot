@@ -35,3 +35,4 @@ asgiref
 fastapi
 uvicorn
 flask
+gpt4free
